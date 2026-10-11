@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شركة ميترو كلين للنظافة | غسيل خزانات وجلي بلاط ببريدة والقصيم</title>
+  <meta name="description"
+    content="شركة ميترو كلين للنظافة ببريدة - القصيم: غسيل وتعقيم الخزانات (أرضي وعلوي) بـ 300 ريال، وجلي بلاط بـ 3 ريال للمتر. فريق متخصص، مبيدات معتمدة، وضمان على الخدمة.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800;900&family=Tajawal:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-logo-chip"><img src="img/logo.png" alt="Metro Clean"></span>
+        <span class="brand-text">
+          <strong>ميترو كلين</strong>
+          <small>للنظافة — بريدة</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#services">خدماتنا</a>
+        <a href="#offers">الأسعار</a>
+        <a href="#gallery">أعمالنا</a>
+        <a href="#process">آلية العمل</a>
+        <a href="#areas">مناطق الخدمة</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+      <a href="tel:+966536710098" class="btn btn-ghost header-cta">
+        <span class="phone-ico"></span> اتصل الآن
+      </a>
+      <button class="burger" id="burger" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero-scene" aria-hidden="true">
+      <div class="bubbles" id="bubblesLayer"></div>
+      <div class="sparkles" id="sparklesLayer"></div>
+    </div>
+
+    <div class="wrap hero-grid">
+      <div class="hero-inner">
+        <p class="hero-kicker">نظافة تليق بمكانك — بريدة والقصيم</p>
+        <h1 class="hero-title">
+          شركة ميترو كلين للنظافة،<br>
+          <span class="hero-title-accent">مياه نظيفة ولمعان يدوم</span>
+        </h1>
+        <p class="hero-desc">
+          "ميترو كلين" شركة نظافة في بريدة بمنطقة القصيم، متخصصة في غسيل وتعقيم الخزانات الأرضية والعلوية
+          بمبيدات معتمدة وآمنة، وفي جلي البلاط لتعود أرضياتك لامعة كأنها جديدة. فريق متخصص ومدرب، أسعار
+          مناسبة للجميع، التزام بالمواعيد، وضمان على الخدمة، لأن النظافة الحقيقية تظهر في التفاصيل.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/966536710098" target="_blank" rel="noopener" class="btn btn-primary">
+            احجز الآن على واتساب
+          </a>
+          <a href="#offers" class="btn btn-outline">شوف الأسعار</a>
+        </div>
+
+        <div class="hero-badges">
+          <div class="badge-item">
+            <span class="badge-num" data-count="300">0</span>
+            <span class="badge-label">ريال غسيل الخزان (أرضي أو علوي)</span>
+          </div>
+          <div class="badge-sep"></div>
+          <div class="badge-item">
+            <span class="badge-num" data-count="3">0</span>
+            <span class="badge-label">ريال لجلي المتر من البلاط</span>
+          </div>
+          <div class="badge-sep"></div>
+          <div class="badge-item">
+            <span class="badge-num" data-count="100" data-suffix="%">0</span>
+            <span class="badge-label">تعقيم شامل لمياه آمنة</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="tank">
+          <div class="tank-lid"></div>
+          <div class="tank-body">
+            <div class="water">
+              <div class="wave wave-a"></div>
+              <div class="wave wave-b"></div>
+            </div>
+            <span class="tank-label">مياه نظيفة<br>لحياة صحية</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="wave-divider" viewBox="0 0 1440 110" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,64 C 240,120 480,10 720,50 C 960,90 1200,20 1440,64 L1440,110 L0,110 Z"></path>
+    </svg>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>نظافة متخصصة لخزاناتك وأرضياتك</h2>
+        <p>كل خدمة بتتنفذ بأدوات ومواد مناسبة، وبفريق مدرب يعرف يتعامل مع كل نوع من الأسطح والخزانات.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <ellipse cx="24" cy="12" rx="12" ry="4" stroke="currentColor" stroke-width="2.5" />
+              <path d="M12 12v22c0 2.2 5.4 4 12 4s12-1.8 12-4V12" stroke="currentColor" stroke-width="2.5" />
+              <path d="M12 22c0 2.2 5.4 4 12 4s12-1.8 12-4" stroke="currentColor" stroke-width="2" opacity=".5" />
+            </svg>
+          </div>
+          <h3>غسيل الخزانات الأرضية</h3>
+          <p>تنظيف الخزانات الأرضية من الداخل بالكامل، وإزالة الرواسب والأوساخ المتراكمة على الجدران والقاع بأدوات ضغط
+            مناسبة.</p>
+        </article>
+
+        <article class="service-card service-accent">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="14" y="14" width="20" height="24" rx="4" stroke="currentColor" stroke-width="2.5" />
+              <path d="M18 14v-3a6 6 0 0 1 12 0v3" stroke="currentColor" stroke-width="2.5" />
+              <path d="M14 38h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>غسيل الخزانات العلوية</h3>
+          <p>غسيل خزانات الأسطح بعناية، وإزالة الشوائب والطحالب والرواسب لتصلك مياه نظيفة وصحية في كل الاستخدامات.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M24 4 8 10v12c0 10 7 17 16 20 9-3 16-10 16-20V10z" stroke="currentColor" stroke-width="2.5"
+                stroke-linejoin="round" />
+              <path d="M17 24l5 5 9-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>تعقيم شامل للخزانات</h3>
+          <p>تعقيم كامل بمبيدات معتمدة وآمنة بعد الغسيل، لضمان مياه آمنة لعائلتك دون أي أثر ضار.</p>
+        </article>
+
+        <article class="service-card service-accent">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M6 34l10-14h24l-6 14z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+              <path d="M18 20l-4 14M28 20l-2 14" stroke="currentColor" stroke-width="2" opacity=".5" />
+              <path d="M36 8l1.5 3.5L41 13l-3.5 1.5L36 18l-1.5-3.5L31 13l3.5-1.5z" stroke="currentColor"
+                stroke-width="2" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>جلي بلاط</h3>
+          <p>جلي احترافي بماكينات متخصصة يلمّع الأرضيات ويرجعلها بريقها، بنتيجة تلمع كالجدرة وتدوم طويلًا.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M10 38l8-22 6 6-14 16z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+              <path d="M26 10l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="36" cy="36" r="3" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </div>
+          <h3>إزالة البقع والاتساخات</h3>
+          <p>معالجة البقع العنيدة وبقايا البُفَع والاتساخات المتراكمة على الأرضيات والأسطح بمواد آمنة على السطح.</p>
+        </article>
+
+        <article class="service-card service-accent">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M8 40V18l16-10 16 10v22z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+              <path d="M19 40V28h10v12" stroke="currentColor" stroke-width="2.5" />
+            </svg>
+          </div>
+          <h3>نظافة عامة للمنازل والمحلات</h3>
+          <p>خدمات تنظيف عامة بفريق محترف وأدوات حديثة، تعكس جمال بيتك أو مكان عملك وتحافظ عليه نظيف دائمًا.</p>
+        </article>
+      </div>
+    </div>
+
+    <svg class="wave-divider wave-flip" viewBox="0 0 1440 110" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,64 C 240,120 480,10 720,50 C 960,90 1200,20 1440,64 L1440,110 L0,110 Z"></path>
+    </svg>
+  </section>
+
+  <!-- ===== OFFERS / PRICES ===== -->
+  <section class="offers" id="offers">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>أسعار واضحة ومناسبة للجميع</h2>
+        <p>من غير مفاجآت ولا تكاليف مخفية، السعر المكتوب هو اللي بتدفعه.</p>
+      </div>
+
+      <div class="offers-grid">
+        <article class="offer-card">
+          <span class="offer-tag">غسيل الخزانات</span>
+          <h3>خزان أرضي أو علوي</h3>
+          <div class="price"><span class="price-num">300</span><span class="price-unit">ريال</span></div>
+          <ul class="offer-list">
+            <li>إزالة الرواسب والأوساخ والشوائب</li>
+            <li>تعقيم شامل بمبيدات معتمدة وآمنة</li>
+            <li>فريق متخصص ومدرب</li>
+            <li>ضمان على الخدمة</li>
+          </ul>
+          <a href="https://wa.me/966536710098?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B3%D9%8A%D9%84%20%D8%AE%D8%B2%D8%A7%D9%86"
+            target="_blank" rel="noopener" class="btn btn-primary">احجز غسيل خزان</a>
+        </article>
+
+        <article class="offer-card offer-alt">
+          <span class="offer-tag">جلي البلاط</span>
+          <h3>أرضيات لامعة كالجدرة</h3>
+          <div class="price"><span class="price-pre">المتر بـ</span><span class="price-num">3</span><span
+              class="price-unit">ريال</span></div>
+          <ul class="offer-list">
+            <li>إزالة البُفَع والاتساخات</li>
+            <li>حماية من التآكل والخدوش</li>
+            <li>لمعان يدوم طويلًا</li>
+            <li>سرعة في الأداء والإنجاز</li>
+          </ul>
+          <a href="https://wa.me/966536710098?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D8%AC%D9%84%D9%8A%20%D8%A8%D9%84%D8%A7%D8%B7"
+            target="_blank" rel="noopener" class="btn btn-primary">احجز جلي بلاط</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>لمحة من أعمالنا</h2>
+        <p>صور من شغلنا وعروضنا — دوس على أي صورة لتكبيرها.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item" data-type="image" data-src="img/img1.jpeg">
+          <img src="img/img1.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img2.jpeg">
+          <img src="img/img2.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img3.jpeg">
+          <img src="img/img3.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img4.jpeg">
+          <img src="img/img4.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img5.jpeg">
+          <img src="img/img5.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img6.jpeg">
+          <img src="img/img6.jpeg" alt="">
+        </button>
+        <button class="gallery-item" data-type="image" data-src="img/img7.jpeg">
+          <img src="img/img7.jpeg" alt="">
+        </button> <button class="gallery-item" data-type="image" data-src="img/img8.jpeg">
+          <img src="img/img8.jpeg" alt="">
+        </button> <button class="gallery-item" data-type="image" data-src="img/img9.jpeg">
+          <img src="img/img9.jpeg" alt="">
+        </button> <button class="gallery-item" data-type="image" data-src="img/img10.jpeg">
+          <img src="img/img10.jpeg" alt="">
+        </button>
+        <button class="gallery-item gallery-video" data-type="video" data-src="img/vid1.mp4"
+          data-poster="assets/gallery/video-1-poster.jpg">
+          <img src="img/img3.jpeg" alt="">
+          <span class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M8 5v14l11-7z" />
+            </svg></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-head light">
+        <h2>إزاي بنغسل خزانك؟</h2>
+        <p>أربع مراحل ثابتة نلتزم بيها في كل خزان، أرضي كان أو علوي.</p>
+      </div>
+
+      <div class="process-track">
+        <div class="process-line">
+          <div class="process-line-fill" id="processFill"></div>
+        </div>
+
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>تجهيز الخزان</h3>
+          <p>نتأكد من تفريغ الخزان وتجهيزه للدخول بمعدات وملابس حماية مناسبة.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>إزالة الرواسب والأوساخ</h3>
+          <p>نغسل الجدران والقاع بالضغط ونزيل الرواسب والشوائب والأوساخ المتراكمة.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>تعقيم شامل</h3>
+          <p>نعقم الخزان بمبيدات معتمدة وآمنة للقضاء على الجراثيم وضمان مياه آمنة.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>شطف وتسليم</h3>
+          <p>نشطف الخزان جيدًا ونسلّمه جاهز لاستقبال مياه نظيفة لحياة صحية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why" id="why">
+    <div class="wrap why-grid">
+      <div class="why-visual" aria-hidden="true">
+        <div class="why-blob"></div>
+        <img src="img/logo.png" alt="" class="why-logo-mark">
+      </div>
+      <div class="why-content">
+        <h2>ليه تختار "ميترو كلين"؟</h2>
+        <div class="why-list">
+          <div class="why-item">
+            <h4>فريق متخصص ومدرب</h4>
+            <p>فنيون متخصصون في غسيل الخزانات وجلي الأرضيات، يعرفوا يتعاملوا مع كل نوع بالطريقة الصح.</p>
+          </div>
+          <div class="why-item">
+            <h4>مبيدات معتمدة وآمنة</h4>
+            <p>نستخدم مواد تعقيم معتمدة وآمنة، عشان مياهك تبقى نظيفة من غير أي أثر ضار.</p>
+          </div>
+          <div class="why-item">
+            <h4>أسعار مناسبة وخدمة مميزة</h4>
+            <p>أسعار واضحة ومناسبة للجميع، بدون التضحية بجودة الشغل أو دقة التنفيذ.</p>
+          </div>
+          <div class="why-item">
+            <h4>سرعة والتزام بالمواعيد</h4>
+            <p>نحترم وقتك، فنلتزم بالموعد المتفق عليه وننجز الشغل بسرعة وبدون تأخير.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COVERAGE AREAS ===== -->
+  <section class="areas" id="areas">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>بنخدمك في بريدة والقصيم</h2>
+        <p>مقرنا في بريدة بمنطقة القصيم (المنطقة الوسطى)، وجاهزين نوصلك للمعاينة والتنفيذ.</p>
+      </div>
+    </div>
+    <div class="areas-marquee">
+      <div class="areas-track">
+        <span>بريدة</span><span>القصيم</span><span>المنطقة الوسطى</span><span>غسيل خزانات</span><span>جلي
+          بلاط</span><span>تعقيم شامل</span>
+        <span>بريدة</span><span>القصيم</span><span>المنطقة الوسطى</span><span>غسيل خزانات</span><span>جلي
+          بلاط</span><span>تعقيم شامل</span>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="map-frame">
+        <iframe title="موقع الخدمة - بريدة"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=43.85%2C26.2%2C44.1%2C26.45&layer=mapnik"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>أسئلة بتتكرر علينا كتير</h2>
+        <p>لو سؤالك مش موجود هنا، ابعتلنا على واتساب وهنرد عليك بنفسنا.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">كم سعر غسيل الخزان؟<span class="faq-toggle"></span></button>
+          <div class="faq-a">
+            <p>غسيل الخزان (أرضي أو علوي) بـ 300 ريال، شامل إزالة الرواسب والتعقيم.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">كم سعر جلي البلاط؟<span class="faq-toggle"></span></button>
+          <div class="faq-a">
+            <p>جلي البلاط بـ 3 ريال للمتر الواحد.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">هل المبيدات المستخدمة آمنة؟<span class="faq-toggle"></span></button>
+          <div class="faq-a">
+            <p>نستخدم مبيدات ومواد تعقيم معتمدة وآمنة، ونحرص على شطف الخزان جيدًا قبل التسليم.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">هل فيه ضمان على الخدمة؟<span class="faq-toggle"></span></button>
+          <div class="faq-a">
+            <p>أيوه، نقدم ضمان على الخدمة، وفريقنا ملتزم بجودة الشغل والمواعيد.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">فين بتخدموا؟<span class="faq-toggle"></span></button>
+          <div class="faq-a">
+            <p>نخدم بريدة ومنطقة القصيم. كلمنا وهنأكد لك التغطية في منطقتك.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head light">
+        <h2>للتواصل والحجز</h2>
+        <p>كلمنا دلوقتي أو ابعت طلبك على واتساب، وهنرتب لك موعد مناسب.</p>
+      </div>
+
+      <div class="contact-cards">
+        <a class="contact-card" href="tel:+966536710098">
+          <div class="contact-avatar">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2C10.5 21 3 13.5 3 6a2 2 0 0 1 2-2z"
+                stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <h4>اتصال مباشر</h4>
+            <span class="contact-number" dir="ltr">+966 53 671 0098</span>
+          </div>
+          <span class="contact-arrow"></span>
+        </a>
+        <a class="contact-card" href="https://wa.me/966536710098" target="_blank" rel="noopener">
+          <div class="contact-avatar">
+            <svg viewBox="0 0 32 32" fill="currentColor">
+              <path
+                d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.4.7 4.7 1.9 6.7L3 29l6.8-2.1c1.9 1.1 4 1.6 6.2 1.6 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4 1.2 1.2-3.9-.3-.4a10.3 10.3 0 0 1-1.6-5.5C5.5 9.9 10.2 5.2 16 5.2S26.5 9.9 26.5 15.7 21.8 26.2 16 26.2z" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <h4>واتساب</h4>
+            <span class="contact-number" dir="ltr">+966 53 671 0098</span>
+          </div>
+          <span class="contact-arrow"></span>
+        </a>
+      </div>
+
+      <div class="contact-note">
+        <p>القصيم — بريدة | المنطقة الوسطى</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span class="footer-logo-chip"><img src="img/logo.png" alt="Metro Clean"></span>
+      <strong class="footer-name">شركة ميترو كلين للنظافة</strong>
+      <p class="footer-tag">غسيل وتعقيم خزانات، وجلي بلاط ببريدة والقصيم — نظافة اليوم، راحة تدوم.</p>
+      <div class="footer-links">
+        <a href="#services">خدماتنا</a>
+        <a href="#offers">الأسعار</a>
+        <a href="#gallery">أعمالنا</a>
+        <a href="#process">آلية العمل</a>
+        <a href="#areas">مناطق الخدمة</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#contact">تواصل معنا</a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> شركة ميترو كلين للنظافة. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/966536710098" target="_blank" rel="noopener" class="floating-whatsapp"
+    aria-label="تواصل عبر واتساب">
+    <svg viewBox="0 0 32 32" fill="currentColor">
+      <path
+        d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.4.7 4.7 1.9 6.7L3 29l6.8-2.1c1.9 1.1 4 1.6 6.2 1.6 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4 1.2 1.2-3.9-.3-.4a10.3 10.3 0 0 1-1.6-5.5C5.5 9.9 10.2 5.2 16 5.2S26.5 9.9 26.5 15.7 21.8 26.2 16 26.2zm5.8-7.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.2 3.4 5.3 4.7.7.3 1.3.5 1.8.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z" />
+    </svg>
+  </a>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق">×</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
